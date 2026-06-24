@@ -1,4 +1,5 @@
 node_modules/
 .env
+.env.local
+.env.production.local
 *.log
-public/staticwebapp.config.json

@@ -40,8 +40,7 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          # VITE_API_URL from Azure Static Web App environment variables is used at build
-          # time to generate staticwebapp.config.json (proxies /api/* to App Service).
+          # Production API URL: .env.production (or Azure Static Web App VITE_API_URL override).
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "dist" # Built app content directory - optional
